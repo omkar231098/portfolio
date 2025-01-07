@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: rgb(0, 0, 0); /* Light mode text color */
+  --background-color-light: #ffffff; /* Light mode background color */
+  --background-color-dark: #0d1224; /* Dark mode background color */
+}
+
+/* Body styling for light mode (default) */
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: var(--background-color-light); /* Default light mode background */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Apply dark mode styles when the .dark class is added to html */
+html.dark body {
+  background-color: var(--background-color-dark); /* Dark mode background */
+  color: rgb(255, 255, 255); /* Dark mode text color */
+}
+
+html.dark .gradient-text {
+  background: linear-gradient(90deg, #ff5aa2, #9013fe);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Additional sticky card styling, if needed */
+#sticky-card-1, #sticky-card-2, #sticky-card-3, #sticky-card-4 {
+  --index: 1;
+}
+
+.sticky-card {
+  top: calc(var(--index) * 4rem);
+}

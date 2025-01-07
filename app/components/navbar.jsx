@@ -68,7 +68,7 @@ function Navbar() {
           >
             <li>
               <Link
-                className="block px-4 py-2 no-underline outline-none hover:no-underline text-black dark:text-white transition-colors duration-300"
+                className="block px-4 py-2 no-underline outline-none hover:no-underline text-black font-bold dark:text-white transition-colors duration-300"
                 href="/#about"
               >
                 ABOUT
@@ -76,7 +76,7 @@ function Navbar() {
             </li>
             <li>
               <Link
-                className="block px-4 py-2 no-underline outline-none hover:no-underline text-black dark:text-white transition-colors duration-300"
+                className="block px-4 py-2 no-underline outline-none hover:no-underline text-black font-bold dark:text-white transition-colors duration-300"
                 href="/#skills"
               >
                 SKILLS
@@ -84,7 +84,7 @@ function Navbar() {
             </li>
             <li>
               <Link
-                className="block px-4 py-2 no-underline outline-none hover:no-underline text-black dark:text-white transition-colors duration-300"
+                className="block px-4 py-2 no-underline outline-none hover:no-underline text-black font-bold dark:text-white transition-colors duration-300"
                 href="/#education"
               >
                 EDUCATION
@@ -92,18 +92,18 @@ function Navbar() {
             </li>
             <li>
               <Link
-                className="block px-4 py-2 no-underline outline-none hover:no-underline text-black dark:text-white transition-colors duration-300"
-                href="/blog"
+                className="block px-4 py-2 no-underline outline-none hover:no-underline text-black font-bold dark:text-white transition-colors duration-300"
+                href="/#projects"
               >
-                BLOGS
+                PROJECTS
               </Link>
             </li>
             <li>
               <Link
-                className="block px-4 py-2 no-underline outline-none hover:no-underline text-black dark:text-white transition-colors duration-300"
-                href="/#projects"
+                className="block px-4 py-2 no-underline outline-none hover:no-underline text-black font-bold dark:text-white transition-colors duration-300"
+                href="/#contact"
               >
-                PROJECTS
+                CONTACT
               </Link>
             </li>
           </ul>
@@ -111,7 +111,7 @@ function Navbar() {
           {/* Dark mode toggle button */}
           <button
             onClick={toggleDarkMode}
-            className="p-2 rounded-full bg-gray-800 text-white dark:bg-gray-100 dark:text-black transition-all"
+            className="p-2 rounded-full bg-gray-800 text-white dark:bg-gray-100 dark:text-black font-bold transition-all"
             aria-label="Toggle dark mode"
           >
             {darkMode ? "🌙" : "☀️"}

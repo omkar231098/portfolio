@@ -83,7 +83,7 @@ export async function POST(request) {
     }
 
     const message = `New message from ${name}\n\nEmail: ${email}\n\nMessage:\n\n${userMessage}\n\n`;
-
+console.log(message)
     // Send Telegram message
     const telegramSuccess = await sendTelegramMessage(token, chat_id, message);
 

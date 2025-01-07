@@ -15,22 +15,22 @@ function Footer() {
             © Developer Portfolio by <Link target="_blank" href="https://www.linkedin.com/in/omkardhanave/" className="bg-gradient-to-r from-pink-500 to-violet-600 text-transparent bg-clip-text font-bold">Omkar Dhanave</Link>
           </p>
           <div className="flex items-center gap-5">
-            <Link
+            {/* <Link
               target="_blank"
               href="https://github.com/said7388/developer-portfolio"
               className="flex items-center gap-2 uppercase hover:bg-gradient-to-r from-pink-500 to-violet-600  bg-clip-text text-black dark:text-white "
             >
               <IoStar />
               <span>Star</span>
-            </Link>
-            <Link
+            </Link> */}
+            {/* <Link
               target="_blank"
               href="https://github.com/said7388/developer-portfolio/fork"
               className="flex items-center gap-2 uppercase hover:bg-gradient-to-r from-pink-500 to-violet-600  bg-clip-text text-black dark:text-white"
             >
               <CgGitFork />
               <span>Fork</span>
-            </Link>
+            </Link> */}
           </div>
         </div>
       </div>

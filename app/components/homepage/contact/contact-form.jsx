@@ -52,7 +52,11 @@ function ContactForm() {
       setIsLoading(false);
     };
   };
-  
+
+  // WhatsApp URL
+  const whatsAppMessage = `Hi, I would like to get in touch with you regarding my message: ${userInput.message}`;
+  const whatsAppUrl = `https://wa.me/7040328972?text=${encodeURIComponent(whatsAppMessage)}`;  // Replace '1234567890' with your WhatsApp number
+
   return (
     <div>
       <p className="font-medium mb-5 text-[#9013FE] dark:text-[#ff5aa2] text-xl uppercase">Contact with me</p>
@@ -104,7 +108,7 @@ function ContactForm() {
           </div>
           <div className="flex flex-col items-center gap-3">
             {error.required && <p className="text-sm text-red-400">
-              All fiels are required!
+              All fields are required!
             </p>}
             <button
               className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-5 md:px-12 py-2.5 md:py-3 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold"
@@ -112,15 +116,23 @@ function ContactForm() {
               onClick={handleSendMail}
               disabled={isLoading}
             >
-              {
-                isLoading ?
-                <span>Sending Message...</span>:
+              {isLoading ? <span>Sending Message...</span> :
                 <span className="flex items-center gap-1">
                   Send Message
                   <TbMailForward size={20} />
                 </span>
               }
             </button>
+
+            {/* WhatsApp Message Button */}
+            <a
+              href={whatsAppUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-green-400 to-green-600 px-5 md:px-12 py-2.5 md:py-3 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold"
+            >
+              Message on WhatsApp
+            </a>
           </div>
         </div>
       </div>

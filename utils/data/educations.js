@@ -9,7 +9,7 @@ export const educations = [
     id: 2,
     title: "Bachelor Degree",
     duration: "2016 - 2020",
-    institution: "Karmaveer Bhaurao Patil College of Engineering Satara",
+    institution: "Karmaveer Bhaurao Patil College of Engineering, Satara",
   },
   {
     id: 3,

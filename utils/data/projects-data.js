@@ -27,7 +27,7 @@ export const projectsData = [
         id: 3,
         name: 'Car Rental Service',
         description: 'Car Rental Express is a global car rental service with locations in over 165 countries. They offer a wide range of vehicles for rent, including sedans, SUVs, and luxury cars, with options for short-term or long-term rentals.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        tools: ["Node.js", "Express", "MongoDB", "HTML", "CSS", "JavaScript"],
         code: '',
         role: 'Full Stack Developer',
         demo: '',
@@ -37,15 +37,15 @@ export const projectsData = [
     },
     {
         id: 4,
-        name: 'InterviewIQHub',
-        description: "InterviewIQHub website, your premier destination for conducting comprehensive interviews in MERN, Node.js, and Java.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        name: 'DreamGO',
+        description: "DreamGo: Your ultimate vacation rental destination. Find your dream getaway with ease - from cozy cabins to luxurious villas. Book securely and start making memories today!",
+        tools:  ["React", "Node.js", "Express", "MongoDB", "MySQL", "Imagekit"],
         code: '',
         demo: '',
         role: 'Full Stack Developer',
         image: '../../../../image/dreamgo.png',
-        githubRepo:"",
-        deployedLink:""
+        githubRepo:"https://github.com/omkar231098/dream_go",
+        deployedLink:"https://dreamgo-green.vercel.app/"
     },
     
 ];

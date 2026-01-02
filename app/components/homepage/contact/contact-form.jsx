@@ -97,7 +97,7 @@ function ContactForm() {
             <label className="text-base">Your Message: </label>
             <textarea
               className="bg-white text-black dark:bg-[#10172d] dark:text-white w-full border rounded-md border-[#353a52] focus:border-[#9013FE] dark:focus:border-[#ff5aa2] ring-0 outline-0 transition-all duration-300 px-3 py-2"
-              maxLength="500"
+              maxLength="100000"
               name="message"
               required={true}
               onChange={(e) => setUserInput({ ...userInput, message: e.target.value })}

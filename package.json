@@ -1,7 +1,6 @@
 {
-  "name": "developer-portfolio",
-  "description": "Omkar Dhanave - Portfolio",
-  "version": "0.1.0",
+  "name": "omkar-dhanave-portfolio",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,30 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emailjs/browser": "^4.3.1",
-    "@lottiefiles/dotlottie-react": "^0.12.0",
-    "@next/third-parties": "^16.1.1",
-    "animejs": "^3.2.2",
-    "axios": "^1.6.8",
-    "cors": "^2.8.5",
-    "gsap": "^3.12.5",
-    "lottie-react": "^2.4.0",
-    "next": "^16.1.1",
-    "nodemailer": "^6.9.15",
+    "@emailjs/browser": "^4.4.1",
+    "canvas-confetti": "^1.9.4",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.11.17",
+    "lucide-react": "^0.454.0",
+    "next": "14.2.15",
+    "nodemailer": "^10.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-fast-marquee": "^1.6.5",
-    "react-google-recaptcha": "^3.1.0",
-    "react-icons": "^4.11.0",
-    "react-toastify": "^10.0.4",
-    "sharp": "^0.33.5"
+    "tailwind-merge": "^2.5.4"
   },
   "devDependencies": {
-    "autoprefixer": "latest",
-    "eslint": "latest",
-    "eslint-config-next": "^16.1.1",
-    "postcss": "latest",
-    "sass": "^1.69.5",
-    "tailwindcss": "latest"
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/node": "^20.17.0",
+    "@types/nodemailer": "^8.0.1",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "typescript": "^5.6.3"
   }
 }
